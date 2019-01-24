@@ -106,4 +106,10 @@ function question26(){
 function question27(){
 }
 function question28(){
+    var a = parseInt(document.getElementById("q28.v1").value);
+    var b = parseInt(document.getElementById("q28.v2").value);
+    var c = parseInt(document.getElementById("q28.v3").value);
+    var d = parseInt(document.getElementById("q28.v4").value);
+    
+    document.getElementById("q28.a").innerHTML = "y = " + (b - (a*a)*c/2 + a*d).toString() + "- "+d+"*x + (" + c +"/2)*x^2";
 }
