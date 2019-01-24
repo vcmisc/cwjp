@@ -54,5 +54,5 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
   
 }));
 
-MathJax.Ajax.loadComplete("http://cs.jsu.edu/mathjax-ext/github/forminput/forminput.js");
+MathJax.Ajax.loadComplete("https://vcmisc.github.io/cwjp/js/forminput.js");
 
