@@ -6,6 +6,15 @@
     <script type="text/javascript" src="../js/ww1r.js"></script>
     <link rel="icon" href="icon.jpg">
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+            TeX: {
+                extensions: ["https://vcmisc.github.io/cwjp/js/forminput.js"]
+            }
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 <body>
     <h1 class="hh">Calculus 1 Review</h1>
@@ -13,11 +22,16 @@
     <div class="dd" name="q1">
         <h2 class="hh">Question 1</h2>
         <div class="dd2">
-            Mass = <input type="text" id="q1.mass"><br>
-            Angle = <input type="text" id="q1.angle"><br>
-            <button type="button" onclick="question1();">Calculate</button>
-            <p id="q1.acceleration"></p>
-            <p id="q1.tension"></p>
+            $$g(x) = \FormInput[1][class][]{q1.v1} x^3   \FormInput[2][class][]{q1.v2} x$$
+            <button type="button" onclick="question1();">Calculate</button><br><br>
+            <p id="q1.a"></p>
+            <p id="q1.b"></p><br>
+            <p id="q1.c"></p>
+            <p id="q1.d"></p><br>
+            <p id="q1.e"></p>
+            <p id="q1.f"></p><br>
+            <p id="q1.g"></p>
+            <p id="q1.h"></p>
         </div>
     </div>
 
