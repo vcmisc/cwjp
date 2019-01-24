@@ -21,3 +21,89 @@ function question1(){
     document.getElementById("q1.g").innerHTML = "h(x) = " + a + "*(" + a +"*x^3+("+b+")*x)^3+("+b+")*("+a+"*x^3+("+b+")*x)";
     document.getElementById("q1.h").innerHTML = "Domain = (-I,I)";
 }
+
+function question2(){
+    var a = parseInt(document.getElementById("q2.v1").value);
+    var b = parseInt(document.getElementById("q2.v3").value);
+    var c = parseInt(document.getElementById("q2.v2").value);
+
+    document.getElementById("q2.a").innerHTML = "\\(\\displaystyle{\\lim_{x \\rightarrow " + b + "^{-}} f(x)}\\) = " + a;
+    document.getElementById("q2.b").innerHTML = "\\(\\displaystyle{\\lim_{x \\rightarrow " + b + "^{+}} f(x)}\\) = " + (10 + b).toString();
+    document.getElementById("q2.c").innerHTML =  "\\(f("+b+") = \\) " + c * b;
+
+    MathJax.Hub.Queue(['Typeset', MathJax.Hub, 'q2']);
+}
+
+function question3(){
+    var a = parseInt(document.getElementById("q3.v1").value);
+    var ans = null;
+    if (a < 0) {
+        ans = "-Infinity";
+    }
+    else {
+        ans = "Infinity";
+    }
+
+    document.getElementById("q3.a").innerHTML = "Limit = " + ans;
+}
+
+function question4(){
+    var a = -parseInt(document.getElementById("q4.v1").value);
+    var d = -parseInt(document.getElementById("q4.v2").value);
+
+    document.getElementById("q4.a").innerHTML = "Limit = 1/(" + (a - (d - a)).toString() + ")";
+}
+
+function question5(){
+    var a = parseInt(document.getElementById("q5.v1").value);
+    var b = parseInt(document.getElementById("q5.v2").value);
+
+    document.getElementById("q5.a").innerHTML = "Limit = -" + a + "/" + b;
+}
+
+function question6(){
+}
+function question7(){
+}
+function question8(){
+}
+function question9(){
+}
+function question10(){
+}
+function question11(){
+}
+function question12(){
+}
+function question13(){
+}
+function question14(){
+}
+function question15(){
+}
+function question16(){
+}
+function question17(){
+}
+function question18(){
+}
+function question19(){
+}
+function question20(){
+}
+function question21(){
+}
+function question22(){
+}
+function question23(){
+}
+function question24(){
+}
+function question25(){
+}
+function question26(){
+}
+function question27(){
+}
+function question28(){
+}
