@@ -25,7 +25,7 @@
             \[ \int (\FormInput{q2.a1} x^2 - \FormInput{q2.b1})^{3/2}\, dx \]
             \[ \int \frac{x^2}{\sqrt{\FormInput{q2.a2} x^2 + \FormInput{q2.b2}}}\, dx \]
             \[ \int x\sqrt{\FormInput{q2.a3} x^2 + \FormInput{q2.lin3} x + \FormInput{q2.const3}}\, dx \]
-            \[ \int \frac{x}{\sqrt{\FormInput{q2.const4} - \FormInput{q2.a4} x^2   \FormInput{q2.lin4} x}}\, dx \]
+            \[ \int \frac{x}{\sqrt{\FormInput{q2.const4} - \FormInput{q2.a4} x^2  \quad \FormInput{q2.lin4} x}}\, dx \]
             <button type="button" onclick="question2();">Calculate</button>
             <p id="q2.a"></p>
             <p id="q2.b"></p>
@@ -34,28 +34,32 @@
         </div>
     </div>
 
+    <div class="dd" name="q9">
+        <h2 class="hh">Question 9</h2>
+        <div class="dd2">
+            \[ \int \frac{\FormInput[3]{q9.c1} x  \quad \FormInput[3]{q9.c2}}{x^2 \quad \FormInput[3]{q9.c3} x \quad \FormInput[3]{q9.c4}}\, dx \]
+            Keep negatives.
+            <br><button type="button" onclick="question9();">Calculate</button>
+            <p id="q9.a"></p>
+            <p id="q9.b"></p>
+        </div>
+    </div>
+
+    <div class="dd" name="q10">
+        <h2 class="hh">Question 10</h2>
+        <div class="dd2">
+            \[ \int \frac{6x^3 + \FormInput{q10.bb}x^2 \quad nx \quad \FormInput[3]{q10.const0}}{x^2-9}\, dx \]
+            Include signs. <br>
+            <button type="button" onclick="question10();">Calculate</button>
+            <p id="q10.a"></p>
+            <p id="q10.b"></p>
+            <p id="q10.c"></p>
+            <p id="q10.d"></p>
+            <p id="q10.e"></p>
+        </div>
+    </div>
+
     <!---
-    <div class="dd" name="q3">
-        <h2 class="hh">Question 3</h2>
-        <div class="dd2">
-            $$ \displaystyle \lim_{x \rightarrow ?^{+}} \frac{\FormInput{q3.v1}}{x - ?} $$
-            <br><button type="button" onclick="question3();">Calculate</button>
-            <p id="q3.a"></p>
-        </div>
-    </div>
-
-    <div class="dd" name="q4">
-        <h2 class="hh">Question 4</h2>
-        <div class="dd2">
-            $$ \displaystyle  \lim_{ x \rightarrow ? } \frac{x \pm \FormInput{q4.v1}}{x^2  \pm \FormInput{q4.v2} x \pm ?} $$
-            <div class="fancy">
-            Include sign.
-            </div>
-            <button type="button" onclick="question4();">Calculate</button>
-            <p id="q4.a"></p>
-        </div>
-    </div>
-
     <div class="dd" name="q5">
         <h2 class="hh">Question 5</h2>
         <div class="dd2">
